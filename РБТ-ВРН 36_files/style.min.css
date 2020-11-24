@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'MyriadPro-Regular';
-  src: local('MyriadPro-Regular'), url('/assets/fonts/MyriadPro-Regular.eot'), /*ÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÂ IE ÃÂ&nbsp;Ã‚Â±ÃÂ&nbsp;Ã‚ÂµÃÂ&nbsp;Ã‚Â· ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã‘â€ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ãâ€¦ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÂ ÃÂ¡Ã¢â‚¬Å¾ÃÂ&nbsp;Ã‘â€¢ÃÂ¡Ãâ€šÃÂ&nbsp;Ã‘ËœÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ&nbsp;Ã‚Â° - ÃÂ&nbsp;Ã‚Â±ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚ÂµÃÂ¡Ã¢â‚¬Å¡ ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÆ’ÃÂ&nbsp;Ã‘â€”ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÅ&nbsp;ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ãâ€&nbsp;ÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ¡ÃÅ&nbsp; oet*/ url('/assets/fonts/MyriadPro-Regular.woff') format('woff');
+  src: local('MyriadPro-Regular'), url('../assets/fonts/MyriadPro-Regular.eot'), /*ÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÂ IE ÃÂ&nbsp;Ã‚Â±ÃÂ&nbsp;Ã‚ÂµÃÂ&nbsp;Ã‚Â· ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã‘â€ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ãâ€¦ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÂ ÃÂ¡Ã¢â‚¬Å¾ÃÂ&nbsp;Ã‘â€¢ÃÂ¡Ãâ€šÃÂ&nbsp;Ã‘ËœÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ&nbsp;Ã‚Â° - ÃÂ&nbsp;Ã‚Â±ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚ÂµÃÂ¡Ã¢â‚¬Å¡ ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÆ’ÃÂ&nbsp;Ã‘â€”ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÅ&nbsp;ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ãâ€&nbsp;ÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ¡ÃÅ&nbsp; oet*/ url('../assets/fonts/MyriadPro-Regular.woff') format('woff');
 }
 @font-face {
   font-family: 'MyriadPro-Bold';
-  src: local('MyriadPro-Bold'), url('/assets/fonts/MyriadPro-Bold.eot'), /*ÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÂ IE ÃÂ&nbsp;Ã‚Â±ÃÂ&nbsp;Ã‚ÂµÃÂ&nbsp;Ã‚Â· ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã‘â€ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ãâ€¦ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÂ ÃÂ¡Ã¢â‚¬Å¾ÃÂ&nbsp;Ã‘â€¢ÃÂ¡Ãâ€šÃÂ&nbsp;Ã‘ËœÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ&nbsp;Ã‚Â° - ÃÂ&nbsp;Ã‚Â±ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚ÂµÃÂ¡Ã¢â‚¬Å¡ ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÆ’ÃÂ&nbsp;Ã‘â€”ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÅ&nbsp;ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ãâ€&nbsp;ÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ¡ÃÅ&nbsp; oet*/ url('/assets/fonts/MyriadPro-Bold.woff') format('woff');
+  src: local('MyriadPro-Bold'), url('../assets/fonts/MyriadPro-Bold.eot'), /*ÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÂ IE ÃÂ&nbsp;Ã‚Â±ÃÂ&nbsp;Ã‚ÂµÃÂ&nbsp;Ã‚Â· ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã‘â€ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ãâ€¦ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÂ ÃÂ¡Ã¢â‚¬Å¾ÃÂ&nbsp;Ã‘â€¢ÃÂ¡Ãâ€šÃÂ&nbsp;Ã‘ËœÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ&nbsp;Ã‚Â° - ÃÂ&nbsp;Ã‚Â±ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚ÂµÃÂ¡Ã¢â‚¬Å¡ ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÆ’ÃÂ&nbsp;Ã‘â€”ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÅ&nbsp;ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ãâ€&nbsp;ÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ¡ÃÅ&nbsp; oet*/ url('../assets/fonts/MyriadPro-Bold.woff') format('woff');
 }
 @font-face {
   font-family: 'MyriadPro-BoldIt';
-  src: local('MyriadPro-BoldIt'), url('/assets/fonts/MyriadPro-BoldIt.eot'), /*ÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÂ IE ÃÂ&nbsp;Ã‚Â±ÃÂ&nbsp;Ã‚ÂµÃÂ&nbsp;Ã‚Â· ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã‘â€ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ãâ€¦ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÂ ÃÂ¡Ã¢â‚¬Å¾ÃÂ&nbsp;Ã‘â€¢ÃÂ¡Ãâ€šÃÂ&nbsp;Ã‘ËœÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ&nbsp;Ã‚Â° - ÃÂ&nbsp;Ã‚Â±ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚ÂµÃÂ¡Ã¢â‚¬Å¡ ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÆ’ÃÂ&nbsp;Ã‘â€”ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÅ&nbsp;ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ãâ€&nbsp;ÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ¡ÃÅ&nbsp; oet*/ url('/assets/fonts/MyriadPro-BoldIt.woff') format('woff');
+  src: local('MyriadPro-BoldIt'), url('../assets/fonts/MyriadPro-BoldIt.eot'), /*ÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÂ IE ÃÂ&nbsp;Ã‚Â±ÃÂ&nbsp;Ã‚ÂµÃÂ&nbsp;Ã‚Â· ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã‘â€ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ãâ€¦ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÂ ÃÂ¡Ã¢â‚¬Å¾ÃÂ&nbsp;Ã‘â€¢ÃÂ¡Ãâ€šÃÂ&nbsp;Ã‘ËœÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ&nbsp;Ã‚Â° - ÃÂ&nbsp;Ã‚Â±ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚ÂµÃÂ¡Ã¢â‚¬Å¡ ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÆ’ÃÂ&nbsp;Ã‘â€”ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÅ&nbsp;ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ãâ€&nbsp;ÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ¡ÃÅ&nbsp; oet*/ url('../assets/fonts/MyriadPro-BoldIt.woff') format('woff');
 }
 @font-face {
   font-family: 'MyriadPro-It';
-  src: local('MyriadPro-It'), url('/assets/fonts/MyriadPro-It.eot'), /*ÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÂ IE ÃÂ&nbsp;Ã‚Â±ÃÂ&nbsp;Ã‚ÂµÃÂ&nbsp;Ã‚Â· ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã‘â€ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ãâ€¦ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÂ ÃÂ¡Ã¢â‚¬Å¾ÃÂ&nbsp;Ã‘â€¢ÃÂ¡Ãâ€šÃÂ&nbsp;Ã‘ËœÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ&nbsp;Ã‚Â° - ÃÂ&nbsp;Ã‚Â±ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚ÂµÃÂ¡Ã¢â‚¬Å¡ ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÆ’ÃÂ&nbsp;Ã‘â€”ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÅ&nbsp;ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ãâ€&nbsp;ÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ¡ÃÅ&nbsp; oet*/ url('/assets/fonts/MyriadPro-It.woff') format('woff');
+  src: local('MyriadPro-It'), url('../assets/fonts/MyriadPro-It.eot'), /*ÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÂ IE ÃÂ&nbsp;Ã‚Â±ÃÂ&nbsp;Ã‚ÂµÃÂ&nbsp;Ã‚Â· ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã‘â€ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‚Â°ÃÂ&nbsp;Ãâ€¦ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÂ ÃÂ¡Ã¢â‚¬Å¾ÃÂ&nbsp;Ã‘â€¢ÃÂ¡Ãâ€šÃÂ&nbsp;Ã‘ËœÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ&nbsp;Ã‚Â° - ÃÂ&nbsp;Ã‚Â±ÃÂ¡Ã‘â€œÃÂ&nbsp;Ã’â€˜ÃÂ&nbsp;Ã‚ÂµÃÂ¡Ã¢â‚¬Å¡ ÃÂ&nbsp;Ã‘â€˜ÃÂ¡ÃÆ’ÃÂ&nbsp;Ã‘â€”ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ã‚Â»ÃÂ¡ÃÅ&nbsp;ÃÂ&nbsp;Ã‚Â·ÃÂ&nbsp;Ã‘â€¢ÃÂ&nbsp;Ãâ€&nbsp;ÃÂ&nbsp;Ã‚Â°ÃÂ¡Ã¢â‚¬Å¡ÃÂ¡ÃÅ&nbsp; oet*/ url('../assets/fonts/MyriadPro-It.woff') format('woff');
 }
 .wow {
   visibility: hidden;
@@ -889,7 +889,7 @@ textarea:focus {
   position: relative;
   border: 10px solid #0093fd;
   border-radius: 5px;
-  background-image: url('/assets/images/bg/garant.png');
+  background-image: url('../assets/images/bg/garant.png');
   background-size: cover;
   padding: 25px 18px 25px 18px;
   box-shadow: 0 16px 38px rgba(0, 0, 0, 0.253);
@@ -1328,7 +1328,7 @@ textarea:focus {
   padding-top: 155px;
   padding-bottom: 155px;
   position: relative;
-  background-image: url('/assets/images/engineers.png');
+  background-image: url('../assets/images/engineers.png');
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: auto;
@@ -1436,7 +1436,7 @@ textarea:focus {
   position: relative;
   border: 10px solid #40d84b;
   border-radius: 5px;
-  background-image: url(/assets/images/bg/sale.png);
+  background-image: url(../assets/images/bg/sale.png);
   background-size: cover;
   padding: 40px 25px 40px 25px;
   box-shadow: 0 16px 38px rgba(0, 0, 0, 0.253);
@@ -1448,7 +1448,7 @@ textarea:focus {
   top: -145px;
   width: 639px;
   height: 537px;
-  background-image: url('/assets/images/sale-stir.png');
+  background-image: url('../assets/images/sale-stir.png');
   background-size: contain;
 }
 .section-sale .cont-sale .for-title-s {
@@ -1576,7 +1576,7 @@ textarea:focus {
   background-size: contain;
   right: -80px;
   bottom: 0;
-  background-image: url('/assets/images/contacts.png');
+  background-image: url('../assets/images/contacts.png');
 }
 .section-last-form .title-l-f {
   font-size: 45px;
