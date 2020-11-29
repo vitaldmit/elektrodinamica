@@ -220,7 +220,7 @@ header {
 }
 .top-info .logo .title-logo span {
   font-family: 'MyriadPro-Bold', Arial;
-  font-size: 16px;
+  font-size: 24px;
 }
 .top-info .logo:hover {
   opacity: 0.8;
@@ -817,7 +817,7 @@ textarea:focus {
   max-width: 100%;
   height: 100%;
   width: 100%;
-  fill: #04b611;
+  fill: #0070a4;
 }
 .section-banner .list-adantages .one-adv .title-avd {
   width: 70%;
@@ -1016,7 +1016,7 @@ textarea:focus {
   display: inline-block;
   width: 44px;
   height: 44px;
-  fill: #04b611;
+  fill: #0070a4;
 }
 .section-table-price .title-section-a {
   margin-bottom: 60px;
