@@ -1038,11 +1038,11 @@ textarea:focus {
   display: block;
   left: 15px;
   top: -39px;
-  width: 139px;
+  width: 153px;
   height: 35px;
   color: #0087fc;
   font-family: 'MyriadPro-Bold', Arial;
-  text-align: right;
+  text-align: left;
   background-size: auto;
   background-repeat: no-repeat;
   background-position: bottom right 25px;
