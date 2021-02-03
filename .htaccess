@@ -1,0 +1,17 @@
+RewriteEngine On
+
+############################################################################
+#### Удаляем index.html из URL                                         ####
+############################################################################
+RewriteRule ^(.*)index\.html$ https://%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^(.*)index\.htm$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Удалить www
+RewriteCond %{ENV:HTTPS} on
+#Если включен https
+RewriteRule .* - [E=SSL:s]
+#То создаем переменную  ssl с текстом s
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+# Проверяем, содержит ли домен www в начале URL.
+RewriteRule ^(.*)$ http%{ENV:SSL}://%1/$1 [R=301,L]
+# Перенаправляем удаляем www
