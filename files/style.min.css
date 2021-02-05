@@ -171,9 +171,11 @@ header {
   margin-bottom: 0;
   line-height: 15px;
   width: 76%;
+  color: #00ce0f;
 }
 .mobile-header .logo .title-logo span {
   font-family: 'MyriadPro-Bold', Arial;
+  color: black;
 }
 #bs-example-navbar-collapse-1.collapse:not(.show) {
   display: block;
@@ -217,10 +219,12 @@ header {
   font-family: Arial;
   line-height: 17px;
   margin: 0;
+  color: #00ce0f;
 }
 .top-info .logo .title-logo span {
   font-family: 'MyriadPro-Bold', Arial;
   font-size: 24px;
+  color: black;
 }
 .top-info .logo:hover {
   opacity: 0.8;
