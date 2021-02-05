@@ -1334,7 +1334,7 @@ textarea:focus {
   padding-top: 155px;
   padding-bottom: 155px;
   position: relative;
-  background-image: url('../assets/images/engineers.png');
+  background-image: url('../assets/images/shtat.png');
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: auto;
@@ -1342,7 +1342,7 @@ textarea:focus {
 .section-promo-man .titile-promo {
   font-size: 45px;
   line-height: 47px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .section-promo-man .titile-promo span {
   font-family: 'MyriadPro-Bold', Arial;
@@ -1454,7 +1454,7 @@ textarea:focus {
   top: -145px;
   width: 639px;
   height: 537px;
-  background-image: url('../assets/images/sale-stir.png');
+  background-image: url('../assets/images/skidka.png');
   background-size: contain;
 }
 .section-sale .cont-sale .for-title-s {
