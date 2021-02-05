@@ -171,7 +171,8 @@ header {
   margin-bottom: 0;
   line-height: 15px;
   width: 76%;
-  color: #00ce0f;
+  color: #0093fd;
+  font-weight: bold;
 }
 .mobile-header .logo .title-logo span {
   font-family: 'MyriadPro-Bold', Arial;
@@ -214,12 +215,13 @@ header {
   height: 53px;
 }
 .top-info .logo .title-logo {
-  width: 75%;
+  width: 77%;
   font-size: 15px;
   font-family: Arial;
   line-height: 17px;
   margin: 0;
-  color: #00ce0f;
+  color: #0093fd;
+  font-weight: bold;
 }
 .top-info .logo .title-logo span {
   font-family: 'MyriadPro-Bold', Arial;
