@@ -1,10 +1,13 @@
 RewriteEngine On
 
 ############################################################################
-#### Удаляем index.html из URL                                         ####
+#### Удаляем index.html, index.php из URL                                         ####
 ############################################################################
 RewriteRule ^(.*)index\.html$ https://%{HTTP_HOST}/$1 [R=301,L]
 RewriteRule ^(.*)index\.htm$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule ^(.*)index\.php$ https://%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^(.*)index\.php$ https://%{HTTP_HOST}/$1 [R=301,L]
 
 # Удалить www
 RewriteCond %{ENV:HTTPS} on
