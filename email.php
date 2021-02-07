@@ -12,7 +12,7 @@ $chatid = "-289382362";
 function sendMessage($chatID, $messaggio, $token) {
     // echo "sending message to " . $chatID . "\n";
     $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID;
-    $url = $url . "&text=" . urlencode($messaggio);
+    $url = $url . "&text=" . urlencode($messaggio) . "&parse_mode=markdown";
     $ch = curl_init();
     $optArray = array(
             CURLOPT_URL => $url,
@@ -24,7 +24,8 @@ function sendMessage($chatID, $messaggio, $token) {
     return $result;
 }
 
-sendMessage($chatid, "Номер: $tel, ФИО: $fio, Проблема: $problems. Срочно ждет Вашего звонка.", $token);
+sendMessage($chatid, "*Заявка на сайте*\nНомер: $tel,\nФИО: $fio,\nПроблема: $problems.\n*Срочно ждет Вашего звонка.*", $token);
+
 
 // 2.
 // Simple way:

@@ -1020,7 +1020,7 @@
                             setTimeout(function () {
                                 form.style.opacity = "1";
                                 sendBtn.prop('disabled', false);
-                                // form.reset();
+                                form.reset();
 
                                 Swal.fire({
                                     type: 'success',
