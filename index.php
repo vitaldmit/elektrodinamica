@@ -83,7 +83,7 @@
                         <form action="#">
                             <input type="tel" name="tel" class="phone inputs" placeholder="+7 (___) ___-__-__"
                                 required="">
-                            <button type="submit" class="button-green">Перезвоните мне</button>
+                            <button type="submit" class="button-green">Вызвать мастера</button>
                             <p class="mini-text">Нажимая на кнопку “Вызвать мастера” - вы даете согласие на обработку
                                 Ваших персональных данных.</p>
                         </form>
