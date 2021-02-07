@@ -171,7 +171,7 @@ header {
   margin-bottom: 0;
   line-height: 15px;
   width: 76%;
-  color: #0093fd;
+  color: #f97d2a;
   font-weight: 500;
 }
 .mobile-header .logo .title-logo span {
@@ -179,7 +179,7 @@ header {
   color: black;
 }
 .mobile-header .logo .title-logo strong {
-  color: red;
+  color: #f97d2a;
   font-weight: 900;
 }
 #bs-example-navbar-collapse-1.collapse:not(.show) {
@@ -224,7 +224,7 @@ header {
   font-family: Arial;
   line-height: 17px;
   margin: 0;
-  color: #0093fd;
+  color: #f97d2a;
   font-weight: bold;
 }
 .top-info .logo .title-logo span {
@@ -233,7 +233,7 @@ header {
   color: black;
 }
 .top-info .logo .title-logo strong {
-  color: red;
+  color: #f97d2a;
 }
 .top-info .logo:hover {
   opacity: 0.8;
