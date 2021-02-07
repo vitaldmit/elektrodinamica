@@ -172,11 +172,15 @@ header {
   line-height: 15px;
   width: 76%;
   color: #0093fd;
-  font-weight: bold;
+  font-weight: 500;
 }
 .mobile-header .logo .title-logo span {
   font-family: 'MyriadPro-Bold', Arial;
   color: black;
+}
+.mobile-header .logo .title-logo strong {
+  color: red;
+  font-weight: 900;
 }
 #bs-example-navbar-collapse-1.collapse:not(.show) {
   display: block;
@@ -227,6 +231,9 @@ header {
   font-family: 'MyriadPro-Bold', Arial;
   font-size: 24px;
   color: black;
+}
+.top-info .logo .title-logo strong {
+  color: red;
 }
 .top-info .logo:hover {
   opacity: 0.8;
@@ -1631,10 +1638,7 @@ textarea:focus {
   .top-info .logo .title-logo {
     width: 80%;
   }
-  .top-info .logo .title-logo span {
-    font-size: 15px;
-  }
-  .top-info .logo .title-logo {
+    .top-info .logo .title-logo {
     font-size: 13px;
   }
   .top-info .select-city .address-for-choose {
