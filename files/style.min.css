@@ -734,7 +734,7 @@ textarea:focus {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 234px;
+  width: 310px;
   height: 53px;
   overflow: hidden;
 }
@@ -2295,7 +2295,7 @@ textarea:focus {
     font-size: 13px;
   }
   .rotate-text {
-    width: 100px;
+    width: 155px;
     height: 32px;
     font-size: 24px;
     margin-left: 0;
