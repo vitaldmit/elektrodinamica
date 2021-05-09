@@ -16,6 +16,33 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+    <!-- Global site tag (gtag.js) - Google Ads: 428303414 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-428303414"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-428303414');
+    </script>
+
+    <!-- Event snippet for Клик по номеру телефона на сайте conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-428303414/Imm9CPX8g5ECELbIncwB',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
 </head>
 
 <body>
@@ -1072,49 +1099,6 @@
 
         gtag('config', 'UA-189742696-1');
     </script>
-
-    <!-- Global site tag (gtag.js) - Google Ads: 428303414 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-428303414"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-428303414');
-    </script>
-<!-- Event snippet for Клик по номеру телефона на сайте conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-428303414/Imm9CPX8g5ECELbIncwB',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
-
-<!-- Event snippet for Клик по номеру телефона на сайте conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-    function gtag_report_conversion(url) {
-        var callback = function () {
-            if (typeof (url) != 'undefined') {
-                window.location = url;
-            }
-        };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-428303414/Imm9CPX8g5ECELbIncwB',
-            'event_callback': callback
-        });
-        return false;
-    }
-</script>
 
 </body>
 
