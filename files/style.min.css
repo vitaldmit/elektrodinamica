@@ -1814,7 +1814,7 @@ textarea:focus {
   .top-info .with-button .number-top-info {
     font-size: 24px;
     margin-bottom: 6px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .top-info .select-city .select-option {
     position: relative;
@@ -1839,7 +1839,7 @@ textarea:focus {
   .mobile-header .container {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
   }
