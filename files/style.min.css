@@ -1295,6 +1295,16 @@ textarea:focus {
 .section-table-price .money-block img {
   margin: 0 auto;
 }
+.sale {
+  /* display: inline-block; */
+  color: #c20400;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.sale > img {
+  
+  margin-right: 10px;
+}
 .section-footer {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1749,6 +1759,10 @@ textarea:focus {
   }
 }
 @media screen and (max-width: 991px) {
+  .social > img {
+    width:32px;
+    height:32px
+  }
   .hover-number {
     display: none;
   }
