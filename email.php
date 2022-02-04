@@ -1,31 +1,52 @@
 <?php
-$tel = htmlspecialchars($_POST['tel']);
-if ($_POST['fio'] && $_POST['problems']) {
+
+if ($_POST['tel'])
+    $tel = htmlspecialchars($_POST['tel']);
+else
+    $tel = "-";
+
+if ($_POST['fio'])
     $fio = $_POST['fio'];
+else
+    $fio = "-";
+
+if ($_POST['problems'])
     $problems = $_POST['problems'];
-}
+else
+    $problems = "-";
+
+$sitename = $_SERVER['SERVER_NAME'];
+
 
 // 1.
 // https://t.me/joinchat/ET-f2rDCz7-xudOi
-$token = "472035467:AAGQC57vdwNneqKZ4IkgJD-MZkQhJGf0E04";
-$chatid = "-289382362";
-function sendMessage($chatID, $messaggio, $token) {
-    // echo "sending message to " . $chatID . "\n";
-    $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID;
-    $url = $url . "&text=" . urlencode($messaggio) . "&parse_mode=markdown";
-    $ch = curl_init();
-    $optArray = array(
-            CURLOPT_URL => $url,
-            CURLOPT_RETURNTRANSFER => true
-    );
-    curl_setopt_array($ch, $optArray);
-    $result = curl_exec($ch);
-    curl_close($ch);
-    return $result;
+$token = "5262241390:AAHaaWYR4e-l6rdHqQDTenKDP9HwJhqRJ-c";
+$chatid = "-1001673749294";
+function sendMessage($chatID, $message, $token) {
+    $data = [
+        "text" => $message,
+        "chat_id" => $chatID,
+        "parse_mode" => "markdown",
+    ];
+    $result = file_get_contents("https://api.telegram.org/bot$token/sendMessage?" . http_build_query($data) );
+    if (!$result) {
+        file_get_contents("https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatID . "&text=Error. Phone: " . $tel);
+    }
 }
 
-sendMessage($chatid, "*Заявка на сайте*\nНомер: $tel,\nФИО: $fio,\nПроблема: $problems.\n*Срочно ждет Вашего звонка.*", $token);
+$message = "*Заявка на сайте " . $sitename . "*\nНомер: " . $tel . "\nФИО: " . $fio . "\nПроблема: " . $problems;
 
+if ($tel != "-")
+    sendMessage($chatid, $message, $token, );
+
+// if ($res)
+//     echo "<h1> This is res " . $res . "</h1>";
+// else
+//     echo "<h1> This is false</h1>";
+
+// file_get_contents("https://api.telegram.org/bot5262241390:AAHaaWYR4e-l6rdHqQDTenKDP9HwJhqRJ-c/sendMessage?chat_id=-1001673749294&text=ERROR!");
+
+// file_get_contents("https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=". $chatid . "&text=ERROR!");
 
 // 2.
 // Simple way:
