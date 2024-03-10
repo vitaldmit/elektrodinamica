@@ -1,5 +1,7 @@
 <?php
 
+include 'secret.php';
+
 if ($_POST['tel'])
     $tel = htmlspecialchars($_POST['tel']);
 else
@@ -18,10 +20,6 @@ else
 $sitename = $_SERVER['SERVER_NAME'];
 
 
-// 1.
-// https://t.me/joinchat/ET-f2rDCz7-xudOi
-$token = "5262241390:AAHaaWYR4e-l6rdHqQDTenKDP9HwJhqRJ-c";
-$chatid = "-1001673749294";
 function sendMessage($chatID, $message, $token) {
     $data = [
         "text" => $message,
