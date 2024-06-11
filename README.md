@@ -1,1 +1,3 @@
-# Сайт одностраничник по электрике для Славика
+# Сайт лендинг по электрике 
+
+[elektrodinamica.ru](https://elektrodinamica.ru)

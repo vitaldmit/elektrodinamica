@@ -5,13 +5,13 @@ on:
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
-    name: Deploy
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Get latest code
+    - name: 🚚 Get latest code
       uses: actions/checkout@v4
 
-    - name: Sync elektrodinamica.ru
+    - name: 📂 Sync elektrodinamica.ru
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ secrets.ftp_server }}
@@ -19,7 +19,7 @@ jobs:
         password: ${{ secrets.ftp_password }}
         server-dir: /www/elektrodinamica.ru/
 
-    - name: Sync ram.elektrodinamica.ru
+    - name: 📂 Sync ram.elektrodinamica.ru
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ secrets.ftp_server }}
